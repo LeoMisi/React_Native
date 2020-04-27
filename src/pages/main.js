@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import api from '../services/api';
 
 import {View, Text, FlatList, TouchableOpacity, StyleSheet} from 'react-native';
 
-export default class Main extends Component {
+export default class Main extends React.Component {
   static navigationOptions = {
     title: 'JSHunt',
   };
@@ -44,7 +44,7 @@ export default class Main extends Component {
       <TouchableOpacity
         style={styles.productButton}
         onPress={() => {
-          this.props.navigation.navigate('Product', {product: item});
+          this.props.navigation.navigate('Products', {product: item});
         }}>
         <Text style={styles.productButtonText}> Acessar </Text>
       </TouchableOpacity>

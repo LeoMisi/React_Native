@@ -1,13 +1,13 @@
 import React from 'react';
+import {WebView} from 'react-native-webview';
+//import {WebView} from 'react-native';
 
-import {WebView} from 'react-native';
-
-const Products = ({navigation}) => (
+const Product = ({navigation}) => (
   <WebView source={{uri: navigation.state.params.product.url}} />
 );
 
-Products.navigationOptions = ({navigation}) => ({
+Product.navigationOptions = ({navigation}) => ({
   title: navigation.state.params.product.title,
 });
 
-export default Products;
+export default Product;
