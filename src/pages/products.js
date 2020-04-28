@@ -6,6 +6,11 @@ const Product = ({navigation}) => (
 );
 
 Product.navigationOptions = ({navigation}) => ({
+  headerTitleAlign: 'center',
+  headerStyle: {
+    backgroundColor: '#DA552F',
+  },
+  headerTintColor: '#FFF',
   title: navigation.state.params.product.title,
 });
 

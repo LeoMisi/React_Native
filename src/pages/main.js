@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 import api from '../services/api';
 
 import {View, Text, FlatList, TouchableOpacity, StyleSheet} from 'react-native';
 
-export default class Main extends React.Component {
+export default class Main extends Component {
   static navigationOptions = {
-    title: 'JSHunt',
+    title: 'JSReactNative',
+    headerTitleAlign: 'center',
+    headerStyle: {
+      backgroundColor: '#DA552F',
+    },
+    headerTintColor: '#FFF',
   };
 
   state = {
@@ -59,7 +64,7 @@ export default class Main extends React.Component {
           data={this.state.docs}
           keyExtractor={item => item._id}
           renderItem={this.renderItem}
-          onEndReached={this.LoadMore}
+          onEndReached={this.loadMore}
           onEndReachedThreshold={0.1}
         />
       </View>
@@ -105,8 +110,9 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   productButtonText: {
-    fontSize: 16,
+    fontSize: 18,
     color: '#DA552F',
     fontWeight: 'bold',
+    textAlign: 'center',
   },
 });

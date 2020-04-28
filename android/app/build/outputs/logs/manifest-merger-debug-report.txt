@@ -13,6 +13,7 @@ MERGED from [:react-native-gesture-handler] C:\projetos\Rocketseat\Skylab\ReactN
 MERGED from [:react-native-reanimated] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\5ba2af1089632037421c4739630516b0\jetified-react-native-0.62.2\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\055a171d10c43231a2795117ecd4c3fd\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\1ed26cdc1f47a6754ce1546799dd43a1\android-jsc-r245459\AndroidManifest.xml:2:1-11:12
@@ -85,6 +86,8 @@ application
 ADDED from C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\android\app\src\main\AndroidManifest.xml:6:5-25:19
 MERGED from C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\android\app\src\main\AndroidManifest.xml:6:5-25:19
 MERGED from C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\5ba2af1089632037421c4739630516b0\jetified-react-native-0.62.2\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\5ba2af1089632037421c4739630516b0\jetified-react-native-0.62.2\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.2] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\a682a4f61b53a5eb0b34ff17728f4b20\soloader-0.8.2\AndroidManifest.xml:11:5-20
@@ -169,6 +172,8 @@ MERGED from [:react-native-safe-area-context] C:\projetos\Rocketseat\Skylab\Reac
 MERGED from [:react-native-safe-area-context] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\5ba2af1089632037421c4739630516b0\jetified-react-native-0.62.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\5ba2af1089632037421c4739630516b0\jetified-react-native-0.62.2\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\055a171d10c43231a2795117ecd4c3fd\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
@@ -269,3 +274,19 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.33.1] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\d25e2c6556572c33db9105c36ab05493\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.33.1] C:\Users\Leonardo\.gradle\caches\transforms-2\files-2.1\d25e2c6556572c33db9105c36ab05493\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] C:\projetos\Rocketseat\Skylab\ReactNative\reactnative\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
